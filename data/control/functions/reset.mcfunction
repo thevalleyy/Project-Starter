@@ -29,7 +29,7 @@ difficulty hard
 
 # set individual spawnpoint
 spawnpoint @a -53 82 -650
-tellraw @a ["",{"text":"[","color":"gold"},{"text":"BAFK","color":"blue"},{"text":"]","color":"gold"},{"text":" Dein Spawnpoint wurde hier gesetzt","color":"gray"}]
+tellraw @a ["",{"text":"[","color":"gold"},{"text":"BAFK","color":"blue"},{"text":"]","color":"gold"},{"text":" Your spawnpoint has been set here","color":"gray"}]
 
 # reset every player
 gamemode survival @a
@@ -61,4 +61,4 @@ effect give @a[name=!"thevalleyy"] minecraft:weakness 999999 255 true
 effect give @a minecraft:mining_fatigue 999999 255 true
 
 # tellraw
-tellraw @s ["",{"text":"[","color":"gold"},{"text":"BAFK","color":"blue"},{"text":"]","color":"gold"},{"text":" BrainAFK wurde zurückgesetzt","color":"gray"}]
+tellraw @s ["",{"text":"[","color":"gold"},{"text":"BAFK","color":"blue"},{"text":"]","color":"gold"},{"text":" Project was resetted","color":"gray"}]
