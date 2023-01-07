@@ -1,54 +1,54 @@
 # time based announcements
 # 1h
-execute if score -timer bafkTimer matches 72000 run tellraw @a ["",{"text":"[","color":"gold"},{"text":"BAFK","color":"blue"},{"text":"] ","color":"gold"},{"text":"Start in ","color":"gray"},{"text": "einer","color": "red"},{"text": " Stunde!","color": "gray"}]
+execute if score -timer bafkTimer matches 72000 run tellraw @a ["",{"text":"[","color":"gold"},{"text":"Project","color":"blue"},{"text":"] ","color":"gold"},{"text":"Start in ","color":"gray"},{"text": "one","color": "red"},{"text": " hour!","color": "gray"}]
 execute if score -timer bafkTimer matches 72000 run playsound minecraft:block.note_block.chime master @a -53 82 -650 1 0.5
 # 30min
-execute if score -timer bafkTimer matches 36000 run tellraw @a ["",{"text":"[","color":"gold"},{"text":"BAFK","color":"blue"},{"text":"] ","color":"gold"},{"text":"Start in ","color":"gray"},{"text": "30","color": "red"},{"text": " Minuten!","color": "gray"}]
+execute if score -timer bafkTimer matches 36000 run tellraw @a ["",{"text":"[","color":"gold"},{"text":"Project","color":"blue"},{"text":"] ","color":"gold"},{"text":"Start in ","color":"gray"},{"text": "30","color": "red"},{"text": " minutes!","color": "gray"}]
 execute if score -timer bafkTimer matches 36000 run playsound minecraft:block.note_block.chime master @a -53 82 -650 1 0.5
 # 20min
-execute if score -timer bafkTimer matches 24000 run tellraw @a ["",{"text":"[","color":"gold"},{"text":"BAFK","color":"blue"},{"text":"] ","color":"gold"},{"text":"Start in ","color":"gray"},{"text": "20","color": "red"},{"text": " Minuten!","color": "gray"}]
+execute if score -timer bafkTimer matches 24000 run tellraw @a ["",{"text":"[","color":"gold"},{"text":"Project","color":"blue"},{"text":"] ","color":"gold"},{"text":"Start in ","color":"gray"},{"text": "20","color": "red"},{"text": " minutes!","color": "gray"}]
 execute if score -timer bafkTimer matches 24000 run playsound minecraft:block.note_block.chime master @a -53 82 -650 1 0.5
 # 10min
-execute if score -timer bafkTimer matches 12000 run tellraw @a ["",{"text":"[","color":"gold"},{"text":"BAFK","color":"blue"},{"text":"] ","color":"gold"},{"text":"Start in ","color":"gray"},{"text": "10","color": "red"},{"text": " Minuten!","color": "gray"}]
+execute if score -timer bafkTimer matches 12000 run tellraw @a ["",{"text":"[","color":"gold"},{"text":"Project","color":"blue"},{"text":"] ","color":"gold"},{"text":"Start in ","color":"gray"},{"text": "10","color": "red"},{"text": " minutes!","color": "gray"}]
 execute if score -timer bafkTimer matches 12000 run playsound minecraft:block.note_block.chime master @a -53 82 -650 1 0.5
 # 5min
-execute if score -timer bafkTimer matches 6000 run tellraw @a ["",{"text":"[","color":"gold"},{"text":"BAFK","color":"blue"},{"text":"] ","color":"gold"},{"text":"Start in ","color":"gray"},{"text": "5","color": "red"},{"text": " Minuten!","color": "gray"}]
+execute if score -timer bafkTimer matches 6000 run tellraw @a ["",{"text":"[","color":"gold"},{"text":"Project","color":"blue"},{"text":"] ","color":"gold"},{"text":"Start in ","color":"gray"},{"text": "5","color": "red"},{"text": " minutes!","color": "gray"}]
 execute if score -timer bafkTimer matches 6000 run playsound minecraft:block.note_block.chime master @a -53 82 -650 1 0.5
 # 3min
-execute if score -timer bafkTimer matches 3600 run tellraw @a ["",{"text":"[","color":"gold"},{"text":"BAFK","color":"blue"},{"text":"] ","color":"gold"},{"text":"Start in ","color":"gray"},{"text": "3","color": "red"},{"text": " Minuten!","color": "gray"}]
+execute if score -timer bafkTimer matches 3600 run tellraw @a ["",{"text":"[","color":"gold"},{"text":"Project","color":"blue"},{"text":"] ","color":"gold"},{"text":"Start in ","color":"gray"},{"text": "3","color": "red"},{"text": " minutes!","color": "gray"}]
 execute if score -timer bafkTimer matches 3600 run playsound minecraft:block.note_block.chime master @a -53 82 -650 1 0.5
 # 2min
-execute if score -timer bafkTimer matches 2400 run tellraw @a ["",{"text":"[","color":"gold"},{"text":"BAFK","color":"blue"},{"text":"] ","color":"gold"},{"text":"Start in ","color":"gray"},{"text": "2","color": "red"},{"text": " Minuten!","color": "gray"}]
+execute if score -timer bafkTimer matches 2400 run tellraw @a ["",{"text":"[","color":"gold"},{"text":"Project","color":"blue"},{"text":"] ","color":"gold"},{"text":"Start in ","color":"gray"},{"text": "2","color": "red"},{"text": " minutes!","color": "gray"}]
 execute if score -timer bafkTimer matches 2400 run playsound minecraft:block.note_block.chime master @a -53 82 -650 1 0.5
 # 1min
-execute if score -timer bafkTimer matches 1200 run tellraw @a ["",{"text":"[","color":"gold"},{"text":"BAFK","color":"blue"},{"text":"] ","color":"gold"},{"text":"Start in ","color":"gray"},{"text": "einer","color": "red"},{"text": " Minute!","color": "gray"}]
+execute if score -timer bafkTimer matches 1200 run tellraw @a ["",{"text":"[","color":"gold"},{"text":"Project","color":"blue"},{"text":"] ","color":"gold"},{"text":"Start in ","color":"gray"},{"text": "one","color": "red"},{"text": " minute!","color": "gray"}]
 execute if score -timer bafkTimer matches 1200 run playsound minecraft:block.note_block.chime master @a -53 82 -650 1 1
 # 30s
-execute if score -timer bafkTimer matches 600 run tellraw @a ["",{"text":"[","color":"gold"},{"text":"BAFK","color":"blue"},{"text":"] ","color":"gold"},{"text":"Start in ","color":"gray"},{"text": "30","color": "red"},{"text": " Sekunden!","color": "gray"}]
+execute if score -timer bafkTimer matches 600 run tellraw @a ["",{"text":"[","color":"gold"},{"text":"Project","color":"blue"},{"text":"] ","color":"gold"},{"text":"Start in ","color":"gray"},{"text": "30","color": "red"},{"text": " seconds!","color": "gray"}]
 execute if score -timer bafkTimer matches 600 run playsound minecraft:block.note_block.chime master @a -53 82 -650 1 1
 # 20s
-execute if score -timer bafkTimer matches 400 run tellraw @a ["",{"text":"[","color":"gold"},{"text":"BAFK","color":"blue"},{"text":"] ","color":"gold"},{"text":"Start in ","color":"gray"},{"text": "20","color": "red"},{"text": " Sekunden!","color": "gray"}]
+execute if score -timer bafkTimer matches 400 run tellraw @a ["",{"text":"[","color":"gold"},{"text":"Project","color":"blue"},{"text":"] ","color":"gold"},{"text":"Start in ","color":"gray"},{"text": "20","color": "red"},{"text": " seconds!","color": "gray"}]
 execute if score -timer bafkTimer matches 400 run playsound minecraft:block.note_block.chime master @a -53 82 -650 1 0.5
 # 10s
-execute if score -timer bafkTimer matches 200 run tellraw @a ["",{"text":"[","color":"gold"},{"text":"BAFK","color":"blue"},{"text":"] ","color":"gold"},{"text":"Start in ","color":"gray"},{"text": "10","color": "red"},{"text": " Sekunden!","color": "gray"}]
+execute if score -timer bafkTimer matches 200 run tellraw @a ["",{"text":"[","color":"gold"},{"text":"Project","color":"blue"},{"text":"] ","color":"gold"},{"text":"Start in ","color":"gray"},{"text": "10","color": "red"},{"text": " seconds!","color": "gray"}]
 execute if score -timer bafkTimer matches 200 run playsound minecraft:block.note_block.chime master @a -53 82 -650 1 1
 # 5s
-execute if score -timer bafkTimer matches 100 run tellraw @a ["",{"text":"[","color":"gold"},{"text":"BAFK","color":"blue"},{"text":"] ","color":"gold"},{"text":"Start in ","color":"gray"},{"text": "5","color": "red"},{"text": " Sekunden!","color": "gray"}]
+execute if score -timer bafkTimer matches 100 run tellraw @a ["",{"text":"[","color":"gold"},{"text":"Project","color":"blue"},{"text":"] ","color":"gold"},{"text":"Start in ","color":"gray"},{"text": "5","color": "red"},{"text": " seconds!","color": "gray"}]
 execute if score -timer bafkTimer matches 100 run playsound minecraft:block.note_block.chime master @a -53 82 -650 1 1.2
 # 4s
-execute if score -timer bafkTimer matches 80 run tellraw @a ["",{"text":"[","color":"gold"},{"text":"BAFK","color":"blue"},{"text":"] ","color":"gold"},{"text":"Start in ","color":"gray"},{"text": "4","color": "red"},{"text": " Sekunden!","color": "gray"}]
+execute if score -timer bafkTimer matches 80 run tellraw @a ["",{"text":"[","color":"gold"},{"text":"Project","color":"blue"},{"text":"] ","color":"gold"},{"text":"Start in ","color":"gray"},{"text": "4","color": "red"},{"text": " seconds!","color": "gray"}]
 execute if score -timer bafkTimer matches 80 run playsound minecraft:block.note_block.chime master @a -53 82 -650 1 1.4
 # 3s
-execute if score -timer bafkTimer matches 60 run tellraw @a ["",{"text":"[","color":"gold"},{"text":"BAFK","color":"blue"},{"text":"] ","color":"gold"},{"text":"Start in ","color":"gray"},{"text": "3","color": "red"},{"text": " Sekunden!","color": "gray"}]
+execute if score -timer bafkTimer matches 60 run tellraw @a ["",{"text":"[","color":"gold"},{"text":"Project","color":"blue"},{"text":"] ","color":"gold"},{"text":"Start in ","color":"gray"},{"text": "3","color": "red"},{"text": " seconds!","color": "gray"}]
 execute if score -timer bafkTimer matches 60 run playsound minecraft:block.note_block.chime master @a -53 82 -650 1 1.6
 # 2s
-execute if score -timer bafkTimer matches 40 run tellraw @a ["",{"text":"[","color":"gold"},{"text":"BAFK","color":"blue"},{"text":"] ","color":"gold"},{"text":"Start in ","color":"gray"},{"text": "2","color": "red"},{"text": " Sekunden!","color": "gray"}]
+execute if score -timer bafkTimer matches 40 run tellraw @a ["",{"text":"[","color":"gold"},{"text":"Project","color":"blue"},{"text":"] ","color":"gold"},{"text":"Start in ","color":"gray"},{"text": "2","color": "red"},{"text": " seconds!","color": "gray"}]
 execute if score -timer bafkTimer matches 40 run playsound minecraft:block.note_block.chime master @a -53 82 -650 1 1.8
 # 1s
-execute if score -timer bafkTimer matches 20 run tellraw @a ["",{"text":"[","color":"gold"},{"text":"BAFK","color":"blue"},{"text":"] ","color":"gold"},{"text":"Start in ","color":"gray"},{"text": "einer","color": "red"},{"text": " Sekunde!","color": "gray"}]
+execute if score -timer bafkTimer matches 20 run tellraw @a ["",{"text":"[","color":"gold"},{"text":"Project","color":"blue"},{"text":"] ","color":"gold"},{"text":"Start in ","color":"gray"},{"text": "one","color": "red"},{"text": " second!","color": "gray"}]
 execute if score -timer bafkTimer matches 20 run playsound minecraft:block.note_block.chime master @a -53 82 -650 1 2
 # 0s
-execute if score -timer bafkTimer matches 1 run tellraw @a ["",{"text":"[","color":"gold"},{"text":"BAFK","color":"blue"},{"text":"] ","color":"gold"},{"text":"Start","color":"red"},{"text":"!","color":"gray"}]
+execute if score -timer bafkTimer matches 1 run tellraw @a ["",{"text":"[","color":"gold"},{"text":"Project","color":"blue"},{"text":"] ","color":"gold"},{"text":"Start","color":"red"},{"text":"!","color":"gray"}]
 execute if score -timer bafkTimer matches 1 run playsound minecraft:entity.firework_rocket.launch master @a -53 82 -650 1 1
 
 # time based commands
@@ -120,10 +120,10 @@ execute if score -timer bafkTimer matches 60 run title @a subtitle {"text": "","
 execute if score -timer bafkTimer matches 1 run worldborder set 30000000 2000000
 execute if score -timer bafkTimer matches 1 run effect clear @a
 execute if score -timer bafkTimer matches 1 run title @a times 60 260 80
-execute if score -timer bafkTimer matches 1 run title @a title {"text":"Herzlich Willkommen","color":"yellow"}
-execute if score -timer bafkTimer matches 1 run title @a subtitle {"text":"zu BrainAFK #3","color": "gold"}
+execute if score -timer bafkTimer matches 1 run title @a title {"text":"Welcome","color":"yellow"}
+execute if score -timer bafkTimer matches 1 run title @a subtitle {"text":"to my Minecraft-Project","color": "gold"}
 execute if score -timer bafkTimer matches 1 run playsound entity.ender_dragon.death master @a
-execute if score -timer bafkTimer matches 1 run tellraw @s ["",{"text":"[","color":"gold"},{"text":"BAFK","color":"blue"},{"text":"]","color":"gold"},{"text":" BrainAFK wurde erfolgreich gestartet","color":"gray"}]
+execute if score -timer bafkTimer matches 1 run tellraw @s ["",{"text":"[","color":"gold"},{"text":"Project","color":"blue"},{"text":"]","color":"gold"},{"text":" Start was successful","color":"gray"}]
 
 # count down (and other stuff)
 execute if score -timer bafkTimer matches 1.. run scoreboard players remove -timer bafkTimer 1
@@ -149,4 +149,4 @@ execute if score -timer bafkTimer matches ..0 run scoreboard objectives remove b
 
 # show the remaining time in the actionbar
 execute if score -remainderMin bafkTimer matches 1.. run title @a actionbar ["",{"text":"|","obfuscated":true,"color":"red"},{"text":" Start in","color":"blue"},{"text":":","color":"gray"},{"text":" ","color":"gold"},{"score":{"name":"-remainderMin","objective":"bafkTimer"},"color":"gold"},{"text":"m ","color":"gray"},{"score":{"name":"-minRemainderSec","objective":"bafkTimer"},"color":"gold"},{"text":"s","color":"gray"},{"text":" |","obfuscated":true,"color":"red"}]
-execute if score -remainderSec bafkTimer matches ..60 run title @a actionbar ["",{"text":"|","obfuscated":true,"color":"red"},{"text":" Start in","color":"blue"},{"text":":","color":"gray"},{"text":" ","color":"gold"},{"score":{"name":"-remainderSec","objective":"bafkTimer"},"color":"gold"},{"text":" Sekunden ","color":"gray"},{"text":"|","obfuscated":true,"color":"red"}]
+execute if score -remainderSec bafkTimer matches ..60 run title @a actionbar ["",{"text":"|","obfuscated":true,"color":"red"},{"text":" Start in","color":"blue"},{"text":":","color":"gray"},{"text":" ","color":"gold"},{"score":{"name":"-remainderSec","objective":"bafkTimer"},"color":"gold"},{"text":" seconds ","color":"gray"},{"text":"|","obfuscated":true,"color":"red"}]
