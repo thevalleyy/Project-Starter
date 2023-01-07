@@ -29,7 +29,7 @@ difficulty hard
 
 # set individual spawnpoint
 spawnpoint @a -53 82 -650
-tellraw @a ["",{"text":"[","color":"gold"},{"text":"BAFK","color":"blue"},{"text":"]","color":"gold"},{"text":" Your spawnpoint has been set here","color":"gray"}]
+tellraw @a ["",{"text":"[","color":"gold"},{"text":"Project","color":"blue"},{"text":"]","color":"gold"},{"text":" Your spawnpoint has been set here","color":"gray"}]
 
 # reset every player
 gamemode survival @a
