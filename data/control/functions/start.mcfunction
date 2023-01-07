@@ -34,7 +34,7 @@ scoreboard players remove -remainderMin bafkTimer 1
 function internal:timer
 
 # death and health cound
-scoreboard objectives add bafkDeaths deathCount "Tode"
+scoreboard objectives add bafkDeaths deathCount "Deaths"
 scoreboard objectives add bafkHealth health
 
 # scoreboard objectives setdisplay sidebar bafkTimer
