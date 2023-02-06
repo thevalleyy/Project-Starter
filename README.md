@@ -1,7 +1,7 @@
 # Project-Starter
 >Customise the beginning of your minecraft project
 
-# ⚠ This project needs a lot of customization to work as you wish.
+# ⚠ This project needs a lot of customization to work as you wish. If you want to use the preconfigured version, this is the seed you need: `3609195531708178749`
 >The most important things you might want to change
 
 >`/data/internal/functions/timer.mcfunction`
